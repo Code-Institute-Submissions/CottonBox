@@ -29,3 +29,11 @@ This project provides a site where potential and returning customers are able to
 - Given that I am a mandarin speaking customer, when I go to the website and I select the flag that represents my language from the dropdown menu, the language of the website will change to the selected language.
 
 - The wireframes for this can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
+
+4. As a **new/existing customer**, I would like to go to the ‘Contact Us’ page and fill out the form, so that I am able to send a message to the company about general questions or problems that I am having.
+
+- **Acceptance Criteria**
+
+- Given that I am an existing customer, when I go to the ‘Contact Us’ page, the website will present a form where I am able to write what I would like to discuss. When I click the send button, a message appears saying “Thank you for contacting us! We will reply to you soon”.
+
+- The wireframes for this can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
