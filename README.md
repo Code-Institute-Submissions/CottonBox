@@ -45,3 +45,7 @@ This project provides a site where potential and returning customers are able to
 - Given that I am a existing customer, when I type in the item that I would like to search for and press enter, the page should automatically present only the products that I have searched for.
 
 - The wireframes for this can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
+
+### Wireframes
+
+- All device wireframes can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
