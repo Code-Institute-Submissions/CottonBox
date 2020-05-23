@@ -37,3 +37,11 @@ This project provides a site where potential and returning customers are able to
 - Given that I am an existing customer, when I go to the ‘Contact Us’ page, the website will present a form where I am able to write what I would like to discuss. When I click the send button, a message appears saying “Thank you for contacting us! We will reply to you soon”.
 
 - The wireframes for this can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
+
+5. As a **new/existing customer**, I would like to search to search for an item, so that I am able to quickly find all of the relevant items of clothing I am looking for.
+
+- **Acceptance Crieria**
+
+- Given that I am a existing customer, when I type in the item that I would like to search for and press enter, the page should automatically present only the products that I have searched for.
+
+- The wireframes for this can be found [here](https://github.com/RoyMagnussen/CottonBox/blob/master/wireframes/wireframes.pdf).
