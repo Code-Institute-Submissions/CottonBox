@@ -12,6 +12,170 @@
     />
   </head>
   <body>
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <a href="" class="navbar-brand">Cotton Box</a>
+        <!--Language selection for tablet and mobile-->
+        <ul class="navbar nav d-inline d-xl-none ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              EN
+            </a>
+            <div
+              class="dropdown-menu border-0"
+              aria-labelledby="languageDropdown"
+            >
+              <a class="dropdown-item" href="#">EN</a>
+              <a class="dropdown-item" href="#">ZH</a>
+            </div>
+          </li>
+        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsedNavbar"
+          aria-controls="collapsedNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <!--Collapse navbar-->
+        <div class="collapse navbar-collapse" id="collapsedNavbar">
+          <!--Content for desktop-->
+          <ul class="navbar nav mr-auto d-none d-none-lg d-xl-flex">
+            <li class="nav-item">
+              <a href="" class="nav-link">Tops</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Shirts</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Dresses</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Jumpers</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Jackets</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Trousers</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Jeans</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Skirts</a>
+            </li>
+          </ul>
+          <ul class="navbar nav d-none d-lg-none d-xl-flex">
+            <li class="nav-item">
+              <a href="" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="languageDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                EN
+              </a>
+              <div
+                class="dropdown-menu border-0"
+                aria-labelledby="languageDropdown"
+              >
+                <a class="dropdown-item" href="#">EN</a>
+                <a class="dropdown-item" href="#">ZH</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline justify-content-center">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fas fa-search"></i>
+                </div>
+              </div>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="form-control"
+                placeholder="Search"
+              />
+            </div>
+          </form>
+          <!--Content for tablet-->
+          <ul
+            class="nav navbar-expand-md text-center d-block d-dm-block d-md-flex d-xl-none"
+          >
+            <li class="nav-item d-lg-none">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#mobileCollapsedNav"
+                aria-controls="mobileCollapsedNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                Clothing<i class="fas fa-caret-down"></i>
+              </button>
+            </li>
+            <div class="collapse navbar-collapse" id="mobileCollapsedNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Tops</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Shirts</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Dresses</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Jumpers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Jackets</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Trousers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Jeans</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Skirts</a>
+                </li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a href="" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!--Scripts-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
