@@ -28,14 +28,14 @@
     "colour": "Yellow"
   },
   {
-    "name": "Pin strip blazer",
+    "name": "Pin stripe blazer",
     "price": "NT$2780",
     "category": "Jackets",
     "image": "assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
     "colour": "Nude"
   },
   {
-    "name": "Pin strip blazer",
+    "name": "Pin stripe blazer",
     "price": "NT$2780",
     "category": "Jackets",
     "image": "assets/images/clothing/jackets/smart-jacket-black.jpg",
@@ -58,7 +58,7 @@
     "name": "Ripped turnup Jeans",
     "price": "NT$1680",
     "category": "Jeans",
-    "image": "assets/images/clothing/jeans/ripped-turnup-jeans.jpg",
+    "image": "assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
     "colour": "Light Blue"
   },
   {
@@ -100,7 +100,7 @@
     "name": "V-Neck Shirt",
     "price": "NT$690",
     "category": "Shirts",
-    "image": "assets/images/clothing/shirts/navy-vneck-shirt-front-jpg",
+    "image": "assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
     "colour": "Navy Blue"
   },
   {
@@ -146,14 +146,14 @@
     "colour": "Nude"
   },
   {
-    "name": "Chiffon Sleeved Shirt",
+    "name": "Chiffon Sleeved Top",
     "price": "NT$1100",
     "category": "Tops",
     "image": "assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
     "colour": "Black"
   },
   {
-    "name": "Chiffon Sleeved Shirt",
+    "name": "Chiffon Sleeved Top",
     "price": "NT$1100",
     "category": "Tops",
     "image": "assets/images/clothing/tops/white-chiffon-sleeve-top.jpg",
@@ -172,13 +172,6 @@
     "category": "Tops",
     "image": "assets/images/clothing/tops/pink-lace-sleeve-top.jpg",
     "colour": "Light Pink"
-  },
-  {
-    "name": "Chiffon Sleeved Shirt",
-    "price": "NT$1100",
-    "category": "Tops",
-    "image": "assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
-    "colour": "Black"
   },
   {
     "name": "Cut Hem Trousers",

@@ -1,49 +1,47 @@
 $(document).ready(function () {
-  const data = document.getElementById("data");
   const search = document.getElementById("search");
-  let products = [];
+  const data = document.getElementById("data");
 
-  search.addEventListener("keyup", (search) => {
-    const searchText = search.target.value.toLowerCase();
-    const searchedProducts = products.filter((product) => {
-      return (
-        product.name.toLowerCase().includes(searchText) ||
-        product.colour.toLowerCase().includes(searchText) ||
-        product.category.toLowerCase().includes(searchText)
-      );
+  const searchProducts = async (searchText) => {
+    const res = await fetch("assets/json/allProducts.json");
+    const products = await res.json();
+
+    let matchedProducts = products.filter((product) => {
+      const regex = new RegExp(`${searchText}`, "gi");
+      return product.name.match(regex) || product.category.match(regex);
     });
-    displayProducts(searchedProducts);
-  });
-  const searchproducts = async () => {
-    try {
-      const res = await fetch("../json/allProducts.json");
-      let products = await res.json();
-      displayProducts(products);
-    } catch (err) {
-      console.log(err);
+
+    if (searchText.length === 0) {
+      matchedProducts = [];
+      data.innerHTML = "";
     }
+
+    outputHtml(matchedProducts);
   };
 
-  const displayProducts = (products) => {
-    const htmlString = products
-      .map((product) => {
-        return `
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="container text-center">
-            <div class="card card-body product-card">
+  const outputHtml = (matchedProducts) => {
+    if (matchedProducts.length > 0) {
+      const html = matchedProducts
+        .map(
+          (product) => `
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2>
+          <div class="container">
+            <div class="card card-body text-center">
               <img class="card-img" src="${product.image}"></img>
               <h4>${product.name}</h4>
               <p class="lead">${product.price}</p>
-              <p>${product.category}<p>
-              <p>Colour: ${product.colour}</p>
+              <p>${product.category}</p>
+              <p>${product.colour}</p>
             </div>
           </div>
         </div>
-       `;
-      })
-      .join("");
-    data.innerHTML = htmlString;
+      `
+        )
+        .join("");
+
+      data.innerHTML = html;
+    }
   };
 
-  searchproducts();
+  search.addEventListener("input", () => searchProducts(search.value));
 });
