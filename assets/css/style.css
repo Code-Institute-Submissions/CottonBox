@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/*--------------------------------------------------------------------- Fonts ----------------------------------------------*/
+.caveat {
+  font-family: "Caveat", cursive;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+}
+
+/*--------------------------------------------------------------------- Colours ----------------------------------------------*/
+.bg--light-pink {
+  background-color: #ffdbdc;
+}
+
+.bg--grey-pink {
+  background-color: #eaa0a2;
+}
+
+.bg--dark-navy {
+  background-color: #3a4664;
+}
+
+.text--white {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------------- Header ----------------------------------------------*/
+
+.logo {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+
+.flag {
+  height: 24px;
+  width: 24px;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.dropdown-menu,
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+.search-box .input-group {
+  border-bottom: 1px solid #333;
+}
+
+.search-box .input-group-text {
+  border: none;
+  background-color: transparent;
+}
+
+.search-box #search {
+  background-color: transparent;
+  border: none;
+}
