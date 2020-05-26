@@ -101,3 +101,21 @@
 .new-in-card a button {
   font-size: 1.3rem;
 }
+
+/*--------------------------------------------------------------------- Categories ----------------------------------------------*/
+.categories h1 {
+  font-size: 4rem;
+}
+
+.category-card {
+  height: 450px;
+  margin: 10px;
+}
+
+.category-card img {
+  height: 75%;
+}
+
+.category-card a button {
+  font-size: 1.3rem;
+}
