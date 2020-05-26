@@ -75,5 +75,29 @@
 }
 
 .search-card img {
-  height: 300px;
+  height: 70%;
+}
+
+/*--------------------------------------------------------------------- Callout ----------------------------------------------*/
+.callout {
+  margin: 0;
+  border-radius: 0%;
+}
+
+/*--------------------------------------------------------------------- New In ----------------------------------------------*/
+.new-in h1 {
+  font-size: 4rem;
+}
+
+.new-in-card {
+  height: 450px;
+  margin: 10px;
+}
+
+.new-in-card img {
+  height: 90%;
+}
+
+.new-in-card a button {
+  font-size: 1.3rem;
 }

@@ -24,15 +24,13 @@ $(document).ready(function () {
       const html = matchedProducts
         .map(
           (product) => `
-        <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2>
-          <div class="container">
-            <div class="card card-body text-center search-card">
-              <img class="card-img" src="${product.image}"></img>
-              <h4 class="mt-2">${product.name}</h4>
-              <p class="lead">${product.price}</p>
-              <p>${product.category}</p>
-              <p>${product.colour}</p>
-            </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <div class="card card-body text-center search-card">
+            <img class="card-img" src="${product.image}"></img>
+            <h4 class="mt-2">${product.name}</h4>
+            <p class="lead">${product.price}</p>
+            <p>${product.category}</p>
+            <p>${product.colour}</p>
           </div>
         </div>
       `
