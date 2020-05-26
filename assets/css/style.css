@@ -67,3 +67,13 @@
   background-color: transparent;
   border: none;
 }
+
+/*--------------------------------------------------------------------- Search Results ----------------------------------------------*/
+.search-card {
+  height: 550px;
+  margin: 10px;
+}
+
+.search-card img {
+  height: 300px;
+}
