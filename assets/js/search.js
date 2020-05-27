@@ -14,6 +14,8 @@ $(document).ready(function () {
     if (searchText.length === 0) {
       matchedProducts = [];
       data.innerHTML = "";
+      $("#new-in").removeClass("d-none");
+      $("#categories").removeClass("d-none");
     }
 
     outputHtml(matchedProducts);
@@ -37,6 +39,8 @@ $(document).ready(function () {
         )
         .join("");
 
+      $("#new-in").addClass("d-none");
+      $("#categories").addClass("d-none");
       data.innerHTML = html;
     }
   };
