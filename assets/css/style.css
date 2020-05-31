@@ -75,7 +75,11 @@
 }
 
 .search-card img {
-  height: 70%;
+  height: 60%;
+}
+
+.search-card h4 {
+  font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------------- Callout ----------------------------------------------*/
@@ -90,12 +94,12 @@
 }
 
 .new-in-card {
-  height: 450px;
+  height: 400px;
   margin: 10px;
 }
 
 .new-in-card img {
-  height: 90%;
+  height: 80%;
 }
 
 .new-in-card a button {
@@ -118,6 +122,24 @@
 
 .category-card a button {
   font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------------- Content ----------------------------------------------*/
+.content .jumbotron {
+  margin: 0;
+}
+
+.product-card {
+  margin: 10px;
+  height: 450px;
+}
+
+.product-card h4 {
+  font-size: 1.2rem;
+}
+
+.product-card img {
+  height: 65%;
 }
 
 /*--------------------------------------------------------------------- Footer ----------------------------------------------*/
