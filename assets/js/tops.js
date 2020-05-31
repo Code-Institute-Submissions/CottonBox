@@ -33,8 +33,9 @@ const tops = [
   },
 ];
 
-document.getElementById("products").innerHTML = tops.map((product) => {
-  return `
+document.getElementById("products").innerHTML = tops
+  .map((product) => {
+    return `
   <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
   <div class="card card-body text-center product-card">
     <img
@@ -121,4 +122,5 @@ document.getElementById("products").innerHTML = tops.map((product) => {
   </div>
 </div>
   `;
-});
+  })
+  .join("");
