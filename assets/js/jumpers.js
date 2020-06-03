@@ -86,7 +86,7 @@ const outputHtml = (matchedJumpers) => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  class="d-block w-100"
+                  class="d-block w-100 img-responsive"
                   src="${product.image}"
                 />
               </div>
