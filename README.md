@@ -22,7 +22,7 @@ This project provides a site where potential and returning customers are able to
 
 - The wireframes for this can be found [here](wireframes/wireframes.pdf).
 
-3. As a **Mandarin speaking customer**, I would like to change the language of the content, so that I am able to understand the site easier and to navigate the sire more easily.
+3. As a **Mandarin speaking customer**, I would like to change the language of the content, so that I am able to understand the site easier and to navigate the site more easily.
 
 - **Acceptance Criteria**
 
@@ -49,3 +49,51 @@ This project provides a site where potential and returning customers are able to
 ### Wireframes
 
 - All device wireframes can be found [here](wireframes/wireframes.pdf).
+
+## Features
+
+During the development of the project, I have created seperate branches for each of the features that I have implemented. This was done to preserve the stability of the master branch.
+
+### Existing Features
+
+1. #### Header
+
+   Allows users to quickly and easy navigate to different pages and to search for products. On tablet and mobile, the user will have to press the menu button to display the navigation and search bar.
+
+   Also allows users to switch between different languages from the language dropdown.
+
+2. #### Callout
+
+   Provides the user with additional information such as sales or annoucements. This can be dismissed by the user if they wish to not see it by clicking on the X in the top right corner.
+
+3. #### New-in Section
+
+   Notifies the user of recently added items of clothing and provides them a link to the page where they can view the item.
+
+4. #### Categories Section
+
+   Allows the user to navigate to the corresponding categeory page by clicking on the category card.
+
+5. #### Footer
+
+   Allows the user to quickly and easily navigate to different pages and provides additional links such as the sitemap and social media that are not available in the header.
+
+6. #### Product Content
+
+   This feature is implemented on all product pages and provides the user a place to see all items of the corresponding category.
+
+7. #### About Page
+
+   This allows the users to view more information about the company such as when it was founded, what the company does and where to find them.
+
+8. #### Map
+
+   On the 'About Us' page, the sites provides a map which locates the head office of the company. This allows users to view where the head office is located.
+
+9. #### Contact Form
+
+   On the 'Contact Us' page, the site provides a form in which the user can send an email to the company about any enquiry by filling out the fields and clicking the send button.
+
+### Features to Implement
+
+    There are currently no features that are left to be implemeted in this version of the project.
