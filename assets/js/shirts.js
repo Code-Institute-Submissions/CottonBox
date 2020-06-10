@@ -4,7 +4,7 @@ const shirts = [
     name: "Checked Shirt",
     price: "NT$1680",
     category: "Shirts",
-    image: "/assets/images/clothing/shirts/blue-checked-shirt.jpg",
+    image: "../assets/images/clothing/shirts/blue-checked-shirt.jpg",
     colour: "Blue, Grey, White",
   },
   {
@@ -12,7 +12,7 @@ const shirts = [
     name: "Checked Shirt",
     price: "NT$1680",
     category: "Shirts",
-    image: "/assets/images/clothing/shirts/red-checked-shirt.jpg",
+    image: "../assets/images/clothing/shirts/red-checked-shirt.jpg",
     colour: "Red, Grey, White",
   },
   {
@@ -20,7 +20,7 @@ const shirts = [
     name: "Chiffon Shirt",
     price: "NT$1580",
     category: "Shirts",
-    image: "/assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
+    image: "../assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
     colour: "White, Black",
   },
   {
@@ -28,7 +28,7 @@ const shirts = [
     name: "V-Neck Shirt",
     price: "NT$690",
     category: "Shirts",
-    image: "/assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
+    image: "../assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
     colour: "Navy Blue",
   },
 ];

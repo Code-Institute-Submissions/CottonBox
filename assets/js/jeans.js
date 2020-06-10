@@ -4,14 +4,14 @@ const jeans = [
     name: "Ankle Jeans",
     price: "NT$1680",
     category: "Jeans",
-    image: "/assets/images/clothing/jeans/blue-ankle-jeans-front.jpg",
+    image: "../assets/images/clothing/jeans/blue-ankle-jeans-front.jpg",
   },
   {
     productID: "2",
     name: "Ripped knee Jeans",
     price: "NT$1380",
     category: "Jeans",
-    image: "/assets/images/clothing/jeans/blue-denim-jeans.jpg",
+    image: "../assets/images/clothing/jeans/blue-denim-jeans.jpg",
     colour: "Light Blue",
   },
   {
@@ -19,7 +19,7 @@ const jeans = [
     name: "Ripped turnup Jeans",
     price: "NT$1680",
     category: "Jeans",
-    image: "/assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
+    image: "../assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
     colour: "Light Blue",
   },
 ];

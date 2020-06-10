@@ -4,7 +4,7 @@ const trousers = [
     name: "Cut Hem Trousers",
     price: "NT$1680",
     category: "Trousers",
-    image: "/assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
+    image: "../assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
     colour: "Light Blue",
   },
 ];

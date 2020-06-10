@@ -3,14 +3,14 @@ const jackets = [
     name: "Pin stripe blazer",
     price: "NT$2780",
     category: "Jackets",
-    image: "/assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
+    image: "../assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
     colour: "Nude",
   },
   {
     name: "Pin stripe blazer",
     price: "NT$2780",
     category: "Jackets",
-    image: "/assets/images/clothing/jackets/smart-jacket-black.jpg",
+    image: "../assets/images/clothing/jackets/smart-jacket-black.jpg",
     colour: "Black",
   },
 ];
