@@ -152,7 +152,7 @@
 
 /*--------------------------------------------------------------------- About Page ----------------------------------------------*/
 .content {
-  margin-bottom: 25px;
+  margin-bottom: 0;
 }
 
 .info {
@@ -160,6 +160,7 @@
 }
 
 #map {
+  margin-bottom: 25px !important;
   height: 600px;
   width: 80%;
 }
