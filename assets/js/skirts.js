@@ -4,7 +4,7 @@ const skirts = [
     name: "Denim Skort",
     price: "NT$1780",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/black-denim-skort-front.jpg",
+    image: "../assets/images/clothing/skirts/black-denim-skort-front.jpg",
     colour: "Black",
   },
   {
@@ -12,7 +12,7 @@ const skirts = [
     name: "Denim Skort",
     price: "NT$1780",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/blue-denim-skort-front.jpg",
+    image: "../assets/images/clothing/skirts/blue-denim-skort-front.jpg",
     colour: "Blue",
   },
   {
@@ -20,7 +20,7 @@ const skirts = [
     name: "Summer Skirt",
     price: "NT$1880",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/long-skirt-blue-front.jpg",
+    image: "../assets/images/clothing/skirts/long-skirt-blue-front.jpg",
     colour: "Blue",
   },
   {
@@ -28,7 +28,7 @@ const skirts = [
     name: "Summer Skirt",
     price: "NT$1880",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/long-skirt-nude-front.jpg",
+    image: "../assets/images/clothing/skirts/long-skirt-nude-front.jpg",
     colour: "Nude",
   },
   {
@@ -36,7 +36,7 @@ const skirts = [
     name: "Summer Skirt",
     price: "NT$1880",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/long-skirt-pink-front.jpg",
+    image: "../assets/images/clothing/skirts/long-skirt-pink-front.jpg",
     colour: "Light Pink",
   },
   {
@@ -44,7 +44,7 @@ const skirts = [
     name: "Long Bow Skirt",
     price: "NT$790",
     category: "Skirts",
-    image: "/assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
+    image: "../assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
     colour: "Nude",
   },
 ];

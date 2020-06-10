@@ -4,7 +4,7 @@ const jumpers = [
     name: "Frenchie art Jumper",
     price: "NT$1180",
     category: "Jumpers",
-    image: "/assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
+    image: "../assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
     colour: "Dark Blue",
   },
   {
@@ -12,7 +12,7 @@ const jumpers = [
     name: "Frenchie art Jumper",
     price: "NT$1180",
     category: "Jumpers",
-    image: "/assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
+    image: "../assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
     colour: "Dark Red",
   },
 ];

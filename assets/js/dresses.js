@@ -4,7 +4,7 @@ const dresses = [
     name: "Floral Dress",
     price: "NT$2580",
     category: "Dresses",
-    image: "/assets/images/clothing/dresses/floral-dress.jpg",
+    image: "../assets/images/clothing/dresses/floral-dress.jpg",
     colour: "Light Blue",
   },
   {
@@ -12,7 +12,7 @@ const dresses = [
     name: "Pinafore Dress",
     price: "NT$1680",
     category: "Dresses",
-    image: "/assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
+    image: "../assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
     colour: "Navy",
   },
   {
@@ -20,7 +20,7 @@ const dresses = [
     name: "Summer Dress",
     price: "NT$880",
     category: "Dresses",
-    image: "/assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
+    image: "../assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
     colour: "Dark Pink",
   },
   {
@@ -28,7 +28,7 @@ const dresses = [
     name: "Summer Dress",
     price: "NT$880",
     category: "Dresses",
-    image: "/assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
+    image: "../assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
     colour: "Yellow",
   },
 ];
