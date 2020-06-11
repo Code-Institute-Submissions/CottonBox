@@ -139,3 +139,7 @@ During the development of the project, I have created seperate branches for each
 - [IP Stack API](https://ipstack.com/)
 
   - The project uses the **IP Stack API** to automatically determine where the user is from based on their IP Address and redirect them to the relevant language version of the website.
+
+## Testing
+
+The documentation of all the testing can be found [here](TESTING.md).
