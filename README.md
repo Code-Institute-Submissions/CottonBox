@@ -100,42 +100,42 @@ During the development of the project, I have created seperate branches for each
 
 ## Technologies Used
 
-- [HTML]("https://html.spec.whatwg.org/multipage/")
+- [HTML](https://html.spec.whatwg.org/multipage/)
 
   - The project uses **HTML** for the structure of the website.
 
-- [CSS]("https://www.w3.org/Style/CSS/")
+- [CSS](https://www.w3.org/Style/CSS/)
 
   - The project uses **CSS** to style the website.
 
-- [BootStrap]("https://getbootstrap.com/")
+- [BootStrap](https://getbootstrap.com/)
 
   - The project uses **Bootstrap** for responsiveness and styling of the website.
 
-- [JavaScript]("https://www.javascript.com/")
+- [JavaScript](https://www.javascript.com/)
 
   - The project uses **JavaScript** for the script files for site functionality such as the search feature.
 
-- [JSON]("https://www.json.org/json-en.html")
+- [JSON](https://www.json.org/json-en.html)
 
   - The project uses **JSON** for storing the list of products for the search feature.
 
-- [JQuery]("https://jquery.com/")
+- [JQuery](https://jquery.com/)
 
   - The project uses **JQuery** to simplify DOM manipulation.
 
-- [FontAwesome]("https://fontawesome.com")
+- [FontAwesome](https://fontawesome.com)
 
   - The project uses **FontAwesome** for all of the icons used in the website.
 
-- [Google Maps API]("https://developers.google.com/maps/documentation")
+- [Google Maps API](https://developers.google.com/maps/documentation)
 
   - The project uses the **Google Maps API** to initialise and render a map for the user on the 'About Us' page of the website.
 
-- [EmailJS API]("https://www.emailjs.com/")
+- [EmailJS API](https://www.emailjs.com/)
 
   - The project uses the **EmailJS API** to send a email to the company on behalf of the user on the 'Contact Us' page.
 
-- [IP Stack API]("https://ipstack.com/")
+- [IP Stack API](https://ipstack.com/)
 
   - The project uses the **IP Stack API** to automatically determine where the user is from based on their IP Address and redirect them to the relevant language version of the website.
