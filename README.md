@@ -143,3 +143,31 @@ During the development of the project, I have created seperate branches for each
 ## Testing
 
 The documentation of all the testing can be found [here](TESTING.md).
+
+## Deployment
+
+### GitHub Pages
+
+To deploy the project on GitHub Pages I had to follow these steps:
+
+1. I had to create a new repository on my GitHub profile following this naming convention: username.reponame.github.io.
+2. Either using GitHub Desktop or the command line, I had to clone the repository to my computer.
+3. I then had to add all of the files from the original CottonBox repository into the GitHub Pages version.
+4. I then had to commit the chnages and then push to the master branch.
+5. I then went to roymagnussen.cottonbox.github.io and saw that the website is live.
+
+### Locally
+
+To run the project locally on your windows computer follow these steps:
+
+1. In the GitHub page for this repository press the button that says 'Clone or download'. A dropdown should appear.
+2. Press the button that says 'Download ZIP'.
+3. Once the download is complete, open the ZIP file. Inside the folder there will be another folder called 'CottonBox-master'.
+4. Open the folder, and at the top of the file explorer there will be a tab called 'Compressed Folder Tools'.
+5. Press on that tab and there will be an option to 'Extract all'.
+6. Press this option and a dialog will appear asking you where would you like to extract the contents to.
+7. Select your destination of choice.
+8. There is also an option to open the folder once it has been extracted. I personally leave that enabled, but it's personal preference.
+9. Press the button called 'Extract'. Once done, the uncompressed folder will open.
+10. Open the folder and double click on the file called 'index.html'.
+11. It will then open in your browser of choice.
