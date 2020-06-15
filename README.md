@@ -171,3 +171,13 @@ To run the project locally on your windows computer follow these steps:
 9. Press the button called 'Extract'. Once done, the uncompressed folder will open.
 10. Open the folder and double click on the file called 'index.html'.
 11. It will then open in your browser of choice.
+
+## Credits
+
+### Media
+
+- The photos used in this project were obtained from Ema Ding the owner of Cotton Box with express permission to use them for this project.
+
+### Acknowledgements
+
+- I received inspiration for this project from [Primark](https://www.primark.com) and [Quiz](https://quizclothing.co.uk).
