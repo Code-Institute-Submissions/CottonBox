@@ -96,7 +96,7 @@ During the development of the project, I have created seperate branches for each
 
 ### Features to Implement
 
-    There are currently no features that are left to be implemeted in this version of the project.
+- When working links for social media are available, I will be including them in the social media section of the footer.
 
 ## Technologies Used
 
