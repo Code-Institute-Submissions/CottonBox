@@ -45,6 +45,7 @@ const searchShirts = async (searchText) => {
   if (searchText.length === 0) {
     matchedShirts = [];
     data.innerHTML = "";
+    // eslint-disable-next-line no-undef
     $("#products").removeClass("d-none");
   }
 
@@ -144,7 +145,7 @@ const outputHtml = (matchedShirts) => {
     `
       )
       .join("");
-
+    // eslint-disable-next-line no-undef
     $("#products").addClass("d-none");
     data.innerHTML = html;
   }

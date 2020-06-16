@@ -29,6 +29,7 @@ const searchJumpers = async (searchText) => {
   if (searchText.length === 0) {
     matchedJumpers = [];
     data.innerHTML = "";
+    // eslint-disable-next-line no-undef
     $("#products").removeClass("d-none");
   }
 
@@ -128,7 +129,7 @@ const outputHtml = (matchedJumpers) => {
     `
       )
       .join("");
-
+    // eslint-disable-next-line no-undef
     $("#products").addClass("d-none");
     data.innerHTML = html;
   }

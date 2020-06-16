@@ -36,6 +36,7 @@ const searchJeans = async (searchText) => {
   if (searchText.length === 0) {
     matchedJeans = [];
     data.innerHTML = "";
+    // eslint-disable-next-line no-undef
     $("#products").removeClass("d-none");
   }
 
@@ -135,7 +136,7 @@ const outputHtml = (matchedJeans) => {
     `
       )
       .join("");
-
+    // eslint-disable-next-line no-undef
     $("#products").addClass("d-none");
     data.innerHTML = html;
   }

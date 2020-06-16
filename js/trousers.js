@@ -21,6 +21,7 @@ const searchTrousers = async (searchText) => {
   if (searchText.length === 0) {
     matchedTrousers = [];
     data.innerHTML = "";
+    // eslint-disable-next-line no-undef
     $("#products").removeClass("d-none");
   }
 
@@ -120,7 +121,7 @@ const outputHtml = (matchedTrousers) => {
     `
       )
       .join("");
-
+    // eslint-disable-next-line no-undef
     $("#products").addClass("d-none");
     data.innerHTML = html;
   }

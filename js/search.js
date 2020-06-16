@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 $(document).ready(function () {
   const search = document.getElementById("search");
   const data = document.getElementById("data");
@@ -14,7 +15,9 @@ $(document).ready(function () {
     if (searchText.length === 0) {
       matchedProducts = [];
       data.innerHTML = "";
+      // eslint-disable-next-line no-undef
       $("#new-in").removeClass("d-none");
+      // eslint-disable-next-line no-undef
       $("#categories").removeClass("d-none");
     }
 
@@ -38,8 +41,9 @@ $(document).ready(function () {
       `
         )
         .join("");
-
+      // eslint-disable-next-line no-undef
       $("#new-in").addClass("d-none");
+      // eslint-disable-next-line no-undef
       $("#categories").addClass("d-none");
       data.innerHTML = html;
     }

@@ -1,0 +1,19 @@
+{
+  "name": "cottonbox",
+  "version": "1.0.0",
+  "description": "This project provides a site where potential and returning customers are able to browse and potentially buy the designer Korean clothing that are available. This is done by providing a modern website that is not only well designed but is also easy to navigate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyMagnussen/CottonBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyMagnussen/CottonBox/issues"
+  },
+  "homepage": "https://github.com/RoyMagnussen/CottonBox#readme"
+}
