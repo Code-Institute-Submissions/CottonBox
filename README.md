@@ -97,6 +97,7 @@ During the development of the project, I have created seperate branches for each
 ### Features to Implement
 
 - When working links for social media are available, I will be including them in the social media section of the footer.
+- As I progress with the course and reach the relevant section, I will be implementing dynamic links for each of the products.
 
 ## Technologies Used
 
