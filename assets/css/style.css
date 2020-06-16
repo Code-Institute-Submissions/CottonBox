@@ -170,6 +170,10 @@
   color: red;
 }
 
+#emailForm button {
+  margin-bottom: 15px;
+}
+
 .required-label {
   color: red;
 }
