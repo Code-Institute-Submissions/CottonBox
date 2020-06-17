@@ -4,7 +4,7 @@ const jackets = [
     name: "條紋西裝外套",
     price: "NT$2780",
     category: "外套",
-    image: "../assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
+    image: "../../assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
     colour: "裸色",
   },
   {
@@ -12,7 +12,7 @@ const jackets = [
     name: "條紋西裝外套",
     price: "NT$2780",
     category: "外套",
-    image: "../assets/images/clothing/jackets/smart-jacket-black.jpg",
+    image: "../../assets/images/clothing/jackets/smart-jacket-black.jpg",
     colour: "黑色",
   },
 ];

@@ -4,7 +4,7 @@ const jumpers = [
     name: "刷毛狗圖案運動衫",
     price: "NT$1180",
     category: "運動衫",
-    image: "../assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
+    image: "../../assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
     colour: "深藍",
   },
   {
@@ -12,7 +12,7 @@ const jumpers = [
     name: "刷毛狗圖案運動衫",
     price: "NT$1180",
     category: "運動衫",
-    image: "../assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
+    image: "../../assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
     colour: "深紅",
   },
 ];

@@ -4,7 +4,7 @@ const dresses = [
     name: "碎花洋裝",
     price: "NT$2580",
     category: "洋裝",
-    image: "../assets/images/clothing/dresses/floral-dress.jpg",
+    image: "../../assets/images/clothing/dresses/floral-dress.jpg",
     colour: "淺藍",
   },
   {
@@ -12,7 +12,7 @@ const dresses = [
     name: "背心裙",
     price: "NT$1680",
     category: "洋裝",
-    image: "../assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
+    image: "../../assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
     colour: "海軍藍",
   },
   {
@@ -20,7 +20,7 @@ const dresses = [
     name: "夏季休閒洋裝",
     price: "NT$880",
     category: "洋裝",
-    image: "../assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
+    image: "../../assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
     colour: "桃紅",
   },
   {
@@ -28,7 +28,8 @@ const dresses = [
     name: "夏季休閒洋裝",
     price: "NT$880",
     category: "洋裝",
-    image: "../assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
+    image:
+      "../../assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
     colour: "黃色",
   },
 ];

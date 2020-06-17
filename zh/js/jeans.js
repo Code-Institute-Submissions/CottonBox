@@ -4,14 +4,14 @@ const jeans = [
     name: "九分直筒牛仔褲",
     price: "NT$1680",
     category: "牛仔褲",
-    image: "../assets/images/clothing/jeans/blue-ankle-jeans-front.jpg",
+    image: "../../assets/images/clothing/jeans/blue-ankle-jeans-front.jpg",
   },
   {
     productID: "2",
     name: "抓破牛仔男友褲",
     price: "NT$1380",
     category: "牛仔褲",
-    image: "../assets/images/clothing/jeans/blue-denim-jeans.jpg",
+    image: "../../assets/images/clothing/jeans/blue-denim-jeans.jpg",
     colour: "淺藍",
   },
   {
@@ -19,7 +19,7 @@ const jeans = [
     name: "褲管抽鬚煙管褲s",
     price: "NT$1680",
     category: "牛仔褲",
-    image: "../assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
+    image: "../../assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
     colour: "淺藍",
   },
 ];

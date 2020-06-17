@@ -4,7 +4,7 @@ const shirts = [
     name: "格紋襯衫",
     price: "NT$1680",
     category: "襯衫",
-    image: "../assets/images/clothing/shirts/blue-checked-shirt.jpg",
+    image: "../../assets/images/clothing/shirts/blue-checked-shirt.jpg",
     colour: "藍色, 灰色, 白色",
   },
   {
@@ -12,7 +12,7 @@ const shirts = [
     name: "格紋襯衫",
     price: "NT$1680",
     category: "襯衫",
-    image: "../assets/images/clothing/shirts/red-checked-shirt.jpg",
+    image: "../../assets/images/clothing/shirts/red-checked-shirt.jpg",
     colour: "紅色, 灰色, 白色",
   },
   {
@@ -20,7 +20,7 @@ const shirts = [
     name: "拼接雪紡襯衫",
     price: "NT$1580",
     category: "襯衫",
-    image: "../assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
+    image: "../../assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
     colour: "白色, 黑色",
   },
   {
@@ -28,7 +28,7 @@ const shirts = [
     name: "氣質V領襯衫",
     price: "NT$690",
     category: "襯衫",
-    image: "../assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
+    image: "../../assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
     colour: "海軍藍",
   },
 ];

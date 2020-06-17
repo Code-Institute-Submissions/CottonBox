@@ -4,7 +4,7 @@ const tops = [
     name: "點點雪紡短袖上衣",
     price: "NT$1100",
     category: "上衣",
-    image: "../assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
+    image: "../../assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
     colour: "黑色",
   },
   {
@@ -12,7 +12,7 @@ const tops = [
     name: "點點雪紡短袖上衣",
     price: "NT$1100",
     category: "上衣",
-    image: "../assets/images/clothing/tops/white-chiffon-sleeve-top.jpg",
+    image: "../../assets/images/clothing/tops/white-chiffon-sleeve-top.jpg",
     colour: "白色",
   },
   {
@@ -20,7 +20,7 @@ const tops = [
     name: "典雅蕾絲拼接上衣",
     price: "NT$1580",
     category: "上衣",
-    image: "../assets/images/clothing/tops/pink-lace-neck-top.jpg",
+    image: "../../assets/images/clothing/tops/pink-lace-neck-top.jpg",
     colour: "粉色",
   },
   {
@@ -28,7 +28,7 @@ const tops = [
     name: "拼接蕾絲短袖上衣 Sleeve Top",
     price: "NT$1580",
     category: "上衣",
-    image: "../assets/images/clothing/tops/pink-lace-sleeve-top.jpg",
+    image: "../../assets/images/clothing/tops/pink-lace-sleeve-top.jpg",
     colour: "粉色",
   },
 ];

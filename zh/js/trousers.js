@@ -4,7 +4,7 @@ const trousers = [
     name: "開衩休閒褲",
     price: "NT$1680",
     category: "褲裝",
-    image: "../assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
+    image: "../../assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
     colour: "淺藍",
   },
 ];

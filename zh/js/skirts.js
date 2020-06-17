@@ -4,7 +4,7 @@ const skirts = [
     name: "丹寧抓破褲裙",
     price: "NT$1780",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/black-denim-skort-front.jpg",
+    image: "../../assets/images/clothing/skirts/black-denim-skort-front.jpg",
     colour: "黑色",
   },
   {
@@ -12,7 +12,7 @@ const skirts = [
     name: "丹寧抓破褲裙",
     price: "NT$1780",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/blue-denim-skort-front.jpg",
+    image: "../../assets/images/clothing/skirts/blue-denim-skort-front.jpg",
     colour: "藍色",
   },
   {
@@ -20,7 +20,7 @@ const skirts = [
     name: "拼接設計長棉裙",
     price: "NT$1880",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/long-skirt-blue-front.jpg",
+    image: "../../assets/images/clothing/skirts/long-skirt-blue-front.jpg",
     colour: "藍色",
   },
   {
@@ -28,7 +28,7 @@ const skirts = [
     name: "拼接設計長棉裙",
     price: "NT$1880",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/long-skirt-nude-front.jpg",
+    image: "../../assets/images/clothing/skirts/long-skirt-nude-front.jpg",
     colour: "裸色",
   },
   {
@@ -36,7 +36,7 @@ const skirts = [
     name: "拼接設計長棉裙",
     price: "NT$1880",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/long-skirt-pink-front.jpg",
+    image: "../../assets/images/clothing/skirts/long-skirt-pink-front.jpg",
     colour: "粉色",
   },
   {
@@ -44,7 +44,7 @@ const skirts = [
     name: "優雅蝴蝶結長裙",
     price: "NT$790",
     category: "裙裝",
-    image: "../assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
+    image: "../../assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
     colour: "裸色",
   },
 ];
