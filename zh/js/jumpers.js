@@ -1,19 +1,19 @@
 const jumpers = [
   {
     productID: "1",
-    name: "Frenchie art Jumper",
+    name: "刷毛狗圖案運動衫",
     price: "NT$1180",
-    category: "Jumpers",
+    category: "運動衫",
     image: "../assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
-    colour: "Dark Blue",
+    colour: "深藍",
   },
   {
     productID: "2",
-    name: "Frenchie art Jumper",
+    name: "刷毛狗圖案運動衫",
     price: "NT$1180",
-    category: "Jumpers",
+    category: "運動衫",
     image: "../assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
-    colour: "Dark Red",
+    colour: "深紅",
   },
 ];
 
@@ -55,7 +55,7 @@ const outputHtml = (matchedJumpers) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -154,7 +154,7 @@ document.getElementById("products").innerHTML = jumpers
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

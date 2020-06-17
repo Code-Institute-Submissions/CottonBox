@@ -1,17 +1,19 @@
 const jackets = [
   {
-    name: "Pin stripe blazer",
+    productID: "1",
+    name: "條紋西裝外套",
     price: "NT$2780",
-    category: "Jackets",
+    category: "外套",
     image: "../assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
-    colour: "Nude",
+    colour: "裸色",
   },
   {
-    name: "Pin stripe blazer",
+    productID: "2",
+    name: "條紋西裝外套",
     price: "NT$2780",
-    category: "Jackets",
+    category: "外套",
     image: "../assets/images/clothing/jackets/smart-jacket-black.jpg",
-    colour: "Black",
+    colour: "黑色",
   },
 ];
 
@@ -53,7 +55,7 @@ const outputHtml = (matchedJackets) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -152,7 +154,7 @@ document.getElementById("products").innerHTML = jackets
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

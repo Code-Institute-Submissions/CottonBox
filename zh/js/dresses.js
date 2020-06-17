@@ -1,35 +1,35 @@
 const dresses = [
   {
     productID: "1",
-    name: "Floral Dress",
+    name: "碎花洋裝",
     price: "NT$2580",
-    category: "Dresses",
+    category: "洋裝",
     image: "../assets/images/clothing/dresses/floral-dress.jpg",
-    colour: "Light Blue",
+    colour: "淺藍",
   },
   {
     productID: "2",
-    name: "Pinafore Dress",
+    name: "背心裙",
     price: "NT$1680",
-    category: "Dresses",
+    category: "洋裝",
     image: "../assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
-    colour: "Navy",
+    colour: "海軍藍",
   },
   {
     productID: "3",
-    name: "Summer Dress",
+    name: "夏季休閒洋裝",
     price: "NT$880",
-    category: "Dresses",
+    category: "洋裝",
     image: "../assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
-    colour: "Dark Pink",
+    colour: "桃紅",
   },
   {
     productID: "4",
-    name: "Summer Dress",
+    name: "夏季休閒洋裝",
     price: "NT$880",
-    category: "Dresses",
+    category: "洋裝",
     image: "../assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
-    colour: "Yellow",
+    colour: "黃色",
   },
 ];
 
@@ -71,7 +71,7 @@ const outputHtml = (matchedDresses) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -170,7 +170,7 @@ document.getElementById("products").innerHTML = dresses
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

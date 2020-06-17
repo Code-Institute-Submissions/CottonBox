@@ -1,35 +1,35 @@
 const tops = [
   {
     productID: "1",
-    name: "Chiffon Sleeved Top",
+    name: "點點雪紡短袖上衣",
     price: "NT$1100",
-    category: "Tops",
+    category: "上衣",
     image: "../assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
-    colour: "Black",
+    colour: "黑色",
   },
   {
     productID: "2",
-    name: "Chiffon Sleeved Top",
+    name: "點點雪紡短袖上衣",
     price: "NT$1100",
-    category: "Tops",
+    category: "上衣",
     image: "../assets/images/clothing/tops/white-chiffon-sleeve-top.jpg",
-    colour: "White",
+    colour: "白色",
   },
   {
     productID: "3",
-    name: "Lace Neck Top",
+    name: "典雅蕾絲拼接上衣",
     price: "NT$1580",
-    category: "Tops",
+    category: "上衣",
     image: "../assets/images/clothing/tops/pink-lace-neck-top.jpg",
-    colour: "Light Pink",
+    colour: "粉色",
   },
   {
     productID: "4",
-    name: "Lace Sleeve Top",
+    name: "拼接蕾絲短袖上衣 Sleeve Top",
     price: "NT$1580",
-    category: "Tops",
+    category: "上衣",
     image: "../assets/images/clothing/tops/pink-lace-sleeve-top.jpg",
-    colour: "Light Pink",
+    colour: "粉色",
   },
 ];
 
@@ -71,7 +71,7 @@ const outputHtml = (matchedTops) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -170,7 +170,7 @@ document.getElementById("products").innerHTML = tops
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

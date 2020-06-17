@@ -1,11 +1,11 @@
 const trousers = [
   {
     productID: "1",
-    name: "Cut Hem Trousers",
+    name: "開衩休閒褲",
     price: "NT$1680",
-    category: "Trousers",
+    category: "褲裝",
     image: "../assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
-    colour: "Light Blue",
+    colour: "淺藍",
   },
 ];
 
@@ -47,7 +47,7 @@ const outputHtml = (matchedTrousers) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -146,7 +146,7 @@ document.getElementById("products").innerHTML = trousers
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

@@ -1,35 +1,35 @@
 const shirts = [
   {
     productID: "1",
-    name: "Checked Shirt",
+    name: "格紋襯衫",
     price: "NT$1680",
-    category: "Shirts",
+    category: "襯衫",
     image: "../assets/images/clothing/shirts/blue-checked-shirt.jpg",
-    colour: "Blue, Grey, White",
+    colour: "藍色, 灰色, 白色",
   },
   {
     productID: "2",
-    name: "Checked Shirt",
+    name: "格紋襯衫",
     price: "NT$1680",
-    category: "Shirts",
+    category: "襯衫",
     image: "../assets/images/clothing/shirts/red-checked-shirt.jpg",
-    colour: "Red, Grey, White",
+    colour: "紅色, 灰色, 白色",
   },
   {
     productID: "3",
-    name: "Chiffon Shirt",
+    name: "拼接雪紡襯衫",
     price: "NT$1580",
-    category: "Shirts",
+    category: "襯衫",
     image: "../assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
-    colour: "White, Black",
+    colour: "白色, 黑色",
   },
   {
     productID: "4",
-    name: "V-Neck Shirt",
+    name: "氣質V領襯衫",
     price: "NT$690",
-    category: "Shirts",
+    category: "襯衫",
     image: "../assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
-    colour: "Navy Blue",
+    colour: "海軍藍",
   },
 ];
 
@@ -71,7 +71,7 @@ const outputHtml = (matchedShirts) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -170,7 +170,7 @@ document.getElementById("products").innerHTML = shirts
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

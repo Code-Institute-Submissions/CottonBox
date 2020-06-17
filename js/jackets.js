@@ -1,5 +1,6 @@
 const jackets = [
   {
+    productID: "1",
     name: "Pin stripe blazer",
     price: "NT$2780",
     category: "Jackets",
@@ -7,6 +8,7 @@ const jackets = [
     colour: "Nude",
   },
   {
+    productID: "2",
     name: "Pin stripe blazer",
     price: "NT$2780",
     category: "Jackets",

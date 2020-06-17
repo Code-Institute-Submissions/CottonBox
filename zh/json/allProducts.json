@@ -1,0 +1,183 @@
+[
+  {
+    "name": "碎花洋裝",
+    "price": "NT$2580",
+    "category": "洋裝",
+    "image": "../assets/images/clothing/dresses/floral-dress.jpg",
+    "colour": "淺藍"
+  },
+  {
+    "name": "背心裙",
+    "price": "NT$1680",
+    "category": "洋裝",
+    "image": "../assets/images/clothing/dresses/navy-pinafore-dress-front.jpg",
+    "colour": "海軍藍"
+  },
+  {
+    "name": "夏季休閒洋裝",
+    "price": "NT$880",
+    "category": "洋裝",
+    "image": "../assets/images/clothing/dresses/short-sleeves-dress-front.jpg",
+    "colour": "桃紅"
+  },
+  {
+    "name": "夏季休閒洋裝",
+    "price": "NT$880",
+    "category": "洋裝",
+    "image": "../assets/images/clothing/dresses/short-sleeves-dress-yellow.jpg",
+    "colour": "黃色"
+  },
+  {
+    "name": "條紋西裝外套",
+    "price": "NT$2780",
+    "category": "外套",
+    "image": "../assets/images/clothing/jackets/smart-jacket-nude-front.jpg",
+    "colour": "裸色"
+  },
+  {
+    "name": "條紋西裝外套",
+    "price": "NT$2780",
+    "category": "外套",
+    "image": "../assets/images/clothing/jackets/smart-jacket-black.jpg",
+    "colour": "黑色"
+  },
+  {
+    "name": "九分直筒牛仔褲",
+    "price": "NT$1680",
+    "category": "牛仔褲",
+    "image": "../assets/images/clothing/jeans/blue-ankle-jeans-front.jpg"
+  },
+  {
+    "name": "抓破牛仔男友褲",
+    "price": "NT$1380",
+    "category": "牛仔褲",
+    "image": "../assets/images/clothing/jeans/blue-denim-jeans.jpg",
+    "colour": "淺藍"
+  },
+  {
+    "name": "褲管抽鬚煙管褲s",
+    "price": "NT$1680",
+    "category": "牛仔褲",
+    "image": "../assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
+    "colour": "淺藍"
+  },
+  {
+    "name": "刷毛狗圖案運動衫",
+    "price": "NT$1180",
+    "category": "運動衫",
+    "image": "../assets/images/clothing/jumpers/frenchie-jumper-blue-front.jpg",
+    "colour": "深藍"
+  },
+  {
+    "name": "刷毛狗圖案運動衫",
+    "price": "NT$1180",
+    "category": "運動衫",
+    "image": "../assets/images/clothing/jumpers/frenchie-jumper-red-front.jpg",
+    "colour": "深紅"
+  },
+  {
+    "name": "格紋襯衫",
+    "price": "NT$1680",
+    "category": "襯衫",
+    "image": "../assets/images/clothing/shirts/blue-checked-shirt.jpg",
+    "colour": "藍色, 灰色, 白色"
+  },
+  {
+    "name": "格紋襯衫",
+    "price": "NT$1680",
+    "category": "襯衫",
+    "image": "../assets/images/clothing/shirts/red-checked-shirt.jpg",
+    "colour": "紅色, 灰色, 白色"
+  },
+  {
+    "name": "拼接雪紡襯衫",
+    "price": "NT$1580",
+    "category": "襯衫",
+    "image": "../assets/images/clothing/shirts/chiffon-smart-shirt.jpg",
+    "colour": "白色, 黑色"
+  },
+  {
+    "name": "氣質V領襯衫",
+    "price": "NT$690",
+    "category": "襯衫",
+    "image": "../assets/images/clothing/shirts/navy-vneck-shirt-front.jpg",
+    "colour": "海軍藍"
+  },
+  {
+    "name": "丹寧抓破褲裙",
+    "price": "NT$1780",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/black-denim-skort-front.jpg",
+    "colour": "黑色"
+  },
+  {
+    "name": "丹寧抓破褲裙",
+    "price": "NT$1780",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/blue-denim-skort-front.jpg",
+    "colour": "藍色"
+  },
+  {
+    "name": "拼接設計長棉裙",
+    "price": "NT$1880",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/long-skirt-blue-front.jpg",
+    "colour": "藍色"
+  },
+  {
+    "name": "拼接設計長棉裙",
+    "price": "NT$1880",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/long-skirt-nude-front.jpg",
+    "colour": "裸色"
+  },
+  {
+    "name": "拼接設計長棉裙",
+    "price": "NT$1880",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/long-skirt-pink-front.jpg",
+    "colour": "粉色"
+  },
+  {
+    "name": "優雅蝴蝶結長裙",
+    "price": "NT$790",
+    "category": "裙裝",
+    "image": "../assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
+    "colour": "裸色"
+  },
+  {
+    "name": "點點雪紡短袖上衣",
+    "price": "NT$1100",
+    "category": "上衣",
+    "image": "../assets/images/clothing/tops/black-chiffon-sleeve-top.jpg",
+    "colour": "黑色"
+  },
+  {
+    "name": "點點雪紡短袖上衣",
+    "price": "NT$1100",
+    "category": "上衣",
+    "image": "../assets/images/clothing/tops/white-chiffon-sleeve-top.jpg",
+    "colour": "白色"
+  },
+  {
+    "name": "典雅蕾絲拼接上衣",
+    "price": "NT$1580",
+    "category": "上衣",
+    "image": "../assets/images/clothing/tops/pink-lace-neck-top.jpg",
+    "colour": "粉色"
+  },
+  {
+    "name": "拼接蕾絲短袖上衣 Sleeve Top",
+    "price": "NT$1580",
+    "category": "上衣",
+    "image": "../assets/images/clothing/tops/pink-lace-sleeve-top.jpg",
+    "colour": "粉色"
+  },
+  {
+    "name": "開衩休閒褲",
+    "price": "NT$1680",
+    "category": "褲裝",
+    "image": "../assets/images/clothing/trousers/blue-cut-hem-trousers.jpg",
+    "colour": "淺藍"
+  }
+]

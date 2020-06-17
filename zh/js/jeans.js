@@ -1,26 +1,26 @@
 const jeans = [
   {
     productID: "1",
-    name: "Ankle Jeans",
+    name: "九分直筒牛仔褲",
     price: "NT$1680",
-    category: "Jeans",
+    category: "牛仔褲",
     image: "../assets/images/clothing/jeans/blue-ankle-jeans-front.jpg",
   },
   {
     productID: "2",
-    name: "Ripped knee Jeans",
+    name: "抓破牛仔男友褲",
     price: "NT$1380",
-    category: "Jeans",
+    category: "牛仔褲",
     image: "../assets/images/clothing/jeans/blue-denim-jeans.jpg",
-    colour: "Light Blue",
+    colour: "淺藍",
   },
   {
     productID: "2",
-    name: "Ripped turnup Jeans",
+    name: "褲管抽鬚煙管褲s",
     price: "NT$1680",
-    category: "Jeans",
+    category: "牛仔褲",
     image: "../assets/images/clothing/jeans/ripped-turnup-jeans-front.jpg",
-    colour: "Light Blue",
+    colour: "淺藍",
   },
 ];
 
@@ -62,7 +62,7 @@ const outputHtml = (matchedJeans) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -161,7 +161,7 @@ document.getElementById("products").innerHTML = jeans
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

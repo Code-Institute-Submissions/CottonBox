@@ -1,51 +1,51 @@
 const skirts = [
   {
     productID: "1",
-    name: "Denim Skort",
+    name: "丹寧抓破褲裙",
     price: "NT$1780",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/black-denim-skort-front.jpg",
-    colour: "Black",
+    colour: "黑色",
   },
   {
     productID: "2",
-    name: "Denim Skort",
+    name: "丹寧抓破褲裙",
     price: "NT$1780",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/blue-denim-skort-front.jpg",
-    colour: "Blue",
+    colour: "藍色",
   },
   {
     productID: "3",
-    name: "Summer Skirt",
+    name: "拼接設計長棉裙",
     price: "NT$1880",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/long-skirt-blue-front.jpg",
-    colour: "Blue",
+    colour: "藍色",
   },
   {
     productID: "4",
-    name: "Summer Skirt",
+    name: "拼接設計長棉裙",
     price: "NT$1880",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/long-skirt-nude-front.jpg",
-    colour: "Nude",
+    colour: "裸色",
   },
   {
     productID: "5",
-    name: "Summer Skirt",
+    name: "拼接設計長棉裙",
     price: "NT$1880",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/long-skirt-pink-front.jpg",
-    colour: "Light Pink",
+    colour: "粉色",
   },
   {
     productID: "6",
-    name: "Long Bow Skirt",
+    name: "優雅蝴蝶結長裙",
     price: "NT$790",
-    category: "Skirts",
+    category: "裙裝",
     image: "../assets/images/clothing/skirts/long-skirt-bow-brown.jpg",
-    colour: "Nude",
+    colour: "裸色",
   },
 ];
 
@@ -87,7 +87,7 @@ const outputHtml = (matchedSkirts) => {
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->
@@ -186,7 +186,7 @@ document.getElementById("products").innerHTML = skirts
       data-toggle="modal"
       data-target="#top${product.productID}"
     >
-      View
+      查看
     </button>
   </div>
   <!-- Modal -->

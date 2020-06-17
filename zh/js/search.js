@@ -4,7 +4,7 @@ $(document).ready(function () {
   const data = document.getElementById("data");
 
   const searchProducts = async (searchText) => {
-    const res = await fetch("assets/json/allProducts.json");
+    const res = await fetch("../json/allProducts.json");
     const products = await res.json();
 
     let matchedProducts = products.filter((product) => {
