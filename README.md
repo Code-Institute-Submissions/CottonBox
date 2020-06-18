@@ -150,16 +150,11 @@ The documentation of all the testing can be found [here](TESTING.md).
 
 To deploy the project on GitHub Pages I had to follow these steps:
 
-1. On GitHub, I created a new repository called 'CottonBoxLive'.
-2. On the GitHub Desktop program, I cloned the new repository to my computer.
-3. I then copied all of the relevant files from the original repository into the new repository.
-4. I then commited all of the changes on the master branch.
-5. I then pushed the commit to GitHub.
-6. I then went to the repository on GitHub and clicked on the setting tab.
-7. I scrolled down to the section that mentions GitHub Pages.
-8. I then clicked on the button to choose the source for GitHub Pages.
-9. I chose the master branch. This will then enable GitHub Pages and reload the window.
-10. I then went back into the setting to the GitHub Pages section and saw that the link for my site was https://roymagnussen.github.io/CottonBoxLive/.
+1. In the GitHub Desktop program, I created a new branch called 'gh-pages' where the source of my GitHub Pages site will be located.
+2. I then went to GitHub, opened the CottonBox repository and opened the settings.
+3. I scrolled down to the page to the GitHub Pages section. There I clicked on the button to choose the source for the GitHub Pages site.
+4. I selected the 'gh-pages' branch. The window then reloaded.
+5. I scrolled back down to the section and saw that there was a link for the CottonBox repository which was https://roymagnussen.github.io/CottonBox
 
 ### Locally
 
